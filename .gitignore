@@ -1,3 +1,23 @@
+# Dependencies
 node_modules/
+
+# Build output TypeScript
 dist/
+
+# Environment variables (tetap simpan .env.example)
 .env
+.env.local
+.env.*.local
+!.env.example
+
+# Folder konfigurasi AI agents bawaan init Prisma
+.agents/
+.claude/
+.cursor/
+.devin/
+
+# Logs & OS files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
